@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f8efef;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
+
+}
+img{
+    max-width: 100%;
+    display: block;
+}
+.container{
+    background-color: #fff;
+    max-width: 1000px;
+    margin: 1rem;
+    display: grid;
+    grid-template-columns: 2fr 1.5fr;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+.Left{
+    padding: 4rem;
+}
+.Left p{
+    margin: 1rem 0;
+}
+.Left form input{
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+.Left form .format{
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.Left form .format .Forgot-pw{
+    color:#046586;
+    font-weight:600;
+}
+.Left form .format button{
+    cursor:pointer;
+    background-color: #046586;
+    color: #fff;
+    padding: 1.75rem 2.5rem;
+    font-size: 1.15rem;
+    border: 0;
+    border-radius: .5rem;
+    transition: all 200ms ease;
+}
+.Left form .format button:hover{
+    box-shadow: 0 0 15px 5px #046586;
+}
+.Left form .format button i{
+    margin-left: .5rem;
+}
+.Left .line{
+    background-color: #d4d4d4;
+    height: 2px;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+ .Left .extra-options{
+    margin-bottom: 2rem;
+    display: grid;
+ }
+ .Left .social .social-btn{
+    color:#000;
+    text-align: center;
+    padding: .75rem 2rem;
+    text-decoration: none;
+    outline: 1px soid #d4d4d4;
+    transition: all 200MS ease;
+ }
+ .Left .social .social-btn:HOVER{
+    box-shadow: 0 0 15PX 5px #046586;
+ }
+ .Left .social .social-btn i{
+    color: #046586;
+    font-size: 1.5rem;
+ }
+ .Left .small-text{
+    text-align: center;
+ }
+ .Left .small-text a{
+    color:#046586;
+ }
+ .right .simg{
+    height: 100%;
+ }
+ .right .simg img{
+    height: 100%;
+    object-fit:cover ;
+ }
